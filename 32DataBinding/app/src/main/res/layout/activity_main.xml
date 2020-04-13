@@ -1,0 +1,32 @@
+<layout>
+
+    <data>
+        <variable
+            name="userInfo"
+            type="com.example.comp_admin.a32databinding.models.User" />
+    </data>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/text_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@{userInfo.name}"
+            android:textSize="28dp" />
+
+        <TextView
+            android:id="@+id/text_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@{userInfo.email}"
+            android:textSize="28dp" />
+
+
+    </LinearLayout>
+
+</layout>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">DBTest</string>
+    <string name="add_employee">Add Employee</string>
+    <string name="id">id</string>
+    <string name="email">email</string>
+    <string name="add">Add</string>
+    <string name="name">name</string>
+    <string name="update_employee">Update Employee</string>
+    <string name="delete">Delete</string>
+    <string name="delete_employee">Delete Employee</string>
+</resources>

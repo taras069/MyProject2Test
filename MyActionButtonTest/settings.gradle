@@ -1,0 +1,2 @@
+rootProject.name='MyActionButtonTest'
+include ':app'
